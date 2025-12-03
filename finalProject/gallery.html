@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Responsive gallery pages for the Noa Tomas final project — cinematic, minimal, and mobile-first."
+    />
+    <title>Gallery | Noa Tomas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Noa Tomas</div>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="gallery.html" class="active">Gallery</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero gallery-hero">
+        <div class="hero-copy">
+          <p class="tagline">Discography</p>
+          <h1>Songs built from light, bass, and emotion.</h1>
+          <p>
+            Every tile is a song — artwork, story, and energy distilled into one frame. Scroll to feel the palette and
+            mood of each release.
+          </p>
+        </div>
+        <div class="hero-visual gallery-visual" aria-hidden="true"></div>
+      </section>
+
+      <section class="gallery-section music-gallery" id="music">
+        <div class="section-header">
+          <p class="section-title">Music</p>
+          <p>Singles straight from the studio. Each sleeve hints at the mood, drop, and glow of the track.</p>
+        </div>
+
+        <div class="album-grid">
+          <article class="album-card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&amp;fit=crop&amp;w=1200&amp;q=80"
+                alt="Sunset Pulse single artwork"
+                loading="lazy"
+              />
+            </figure>
+            <div class="album-meta">
+              <h3>Sunset Pulse</h3>
+              <p>Single · 2024 · Sunrise club energy</p>
+            </div>
+          </article>
+
+          <article class="album-card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&amp;fit=crop&amp;w=1200&amp;q=80"
+                alt="Night Bloom cover art"
+                loading="lazy"
+              />
+            </figure>
+            <div class="album-meta">
+              <h3>Night Bloom</h3>
+              <p>Single · 2024 · Violet midnight rush</p>
+            </div>
+          </article>
+
+          <article class="album-card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&amp;fit=crop&amp;w=1200&amp;q=80"
+                alt="Strobe Bloom loop artwork"
+                loading="lazy"
+              />
+            </figure>
+            <div class="album-meta">
+              <h3>Strobe Bloom</h3>
+              <p>Single · 2023 · Blue strobe adrenaline</p>
+            </div>
+          </article>
+
+          <article class="album-card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1470104240373-bc1812eddc9f?auto=format&amp;fit=crop&amp;w=1200&amp;q=80"
+                alt="Nebula Rift visual"
+                loading="lazy"
+              />
+            </figure>
+            <div class="album-meta">
+              <h3>Nebula Rift</h3>
+              <p>Single · 2023 · Slow-blooming synth wave</p>
+            </div>
+          </article>
+
+          <article class="album-card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1454922915609-78549ad709bb?auto=format&amp;fit=crop&amp;w=1200&amp;q=80"
+                alt="Analog Bloom session"
+                loading="lazy"
+              />
+            </figure>
+            <div class="album-meta">
+              <h3>Analog Bloom</h3>
+              <p>Single · 2023 · Analog warmth &amp; field recordings</p>
+            </div>
+          </article>
+
+          <article class="album-card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&amp;fit=crop&amp;w=1200&amp;q=80"
+                alt="Pulse Mark system"
+                loading="lazy"
+              />
+            </figure>
+            <div class="album-meta">
+              <h3>Pulse Mark</h3>
+              <p>Single · 2022 · Neon monogram intro</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      © <span id="year"></span> Noa Tomas · Light through sound.
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
